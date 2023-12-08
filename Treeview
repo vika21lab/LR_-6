@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk, messagebox
-from clsStudent import Student
+from clsUniversity import University_s
 
 # логика
 # заполняем поля ввода значениями выделенной позиции в общем списке
@@ -212,6 +212,6 @@ b6 = Button(frame, text="Закрыть", width=12, command=on_closing)
 b6.pack()
 frame.grid(row=1, column=2)
 
-database_University = Student()
+database_University = University_s()
 
 window.mainloop()
